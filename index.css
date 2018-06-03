@@ -1,0 +1,47 @@
+
+
+#game_underlay{
+  width: 95%;
+  height:50%;
+  display: block;
+  margin-left: 24px;
+  margin-right: 0px;
+}
+
+
+#stat_tab{
+  background-color:#244c8c;
+  font-family: 'Merriweather', serif;
+  width: 25%;
+  height:1080px;
+  float:left;
+  text-align: center;
+}
+
+#game{
+  background-color:#ced5e0;
+  width: 75%;
+  height:1080px;
+  float:left;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.stats{
+  text-align: left;
+  margin-left: 10px;
+}
+
+#grid-container {
+  width: 50vw;
+  height: 100vh;
+  float:left;
+  padding:10px;
+}
+
+div.grid-item{
+  width: 10px;
+  height: 10px;
+  outline: 1px solid;
+  float: left;
+}
