@@ -33,8 +33,10 @@
 }
 
 #grid-container {
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
+  margin-left: 100px;
+  margin-right:0px;
   float:left;
   padding:10px;
 }
@@ -44,4 +46,7 @@ div.grid-item{
   height: 10px;
   outline: 1px solid;
   float: left;
+}
+.clicked {
+	background-color:blue;
 }

@@ -19,7 +19,7 @@ $(document).ready(function(){
 	  //console.log(parseInt(value));
 	  //console.log(typeof value);
 	  //console.log(typeof parseInt(value));
-	  squares = parseInt(value)/100;
+	  squares = parseInt(value);
 	  console.log(squares);
   };
   xhr.send();
@@ -28,7 +28,9 @@ $(document).ready(function(){
   if (squares > 0){
     $(this).toggleClass('clicked');
     squares--;
-    $('#howmanysquares').text('You can buy '+squares+' more squares.')
+	console.log(squares);
+    $('#howmanysquares').text("You can buy "+squares+" more squares.")
+	console.log("after click")
   }
 });
 
