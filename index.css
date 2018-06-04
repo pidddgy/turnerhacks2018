@@ -34,14 +34,13 @@
 
 #grid-container {
   width: 60vw;
-  height: 100vh;
   margin-left: 100px;
   margin-right:0px;
   float:left;
   padding:10px;
   background-image:url("http://c1.staticflickr.com/2/1739/28673484688_5da1cc82fe_b.jpg")
 }
-
+	
 div.grid-item{
   width: 10px;
   height: 10px;
