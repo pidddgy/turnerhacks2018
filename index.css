@@ -39,14 +39,17 @@
   margin-right:0px;
   float:left;
   padding:10px;
+  background-image:url("http://c1.staticflickr.com/2/1739/28673484688_5da1cc82fe_b.jpg")
 }
 
 div.grid-item{
   width: 10px;
   height: 10px;
   outline: 1px solid;
+  opacity: 0.4;
   float: left;
+  
 }
 .clicked {
-	background-color:blue;
+	background-color:black;
 }
