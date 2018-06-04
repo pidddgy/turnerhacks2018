@@ -26,13 +26,21 @@ $(document).ready(function(){
   
   $('.grid-item').click(function(){
   if (squares > 0){
-    $(this).toggleClass('clicked');
-    squares--;
-	console.log(squares);
-    $('#howmanysquares').text("You can buy "+squares+" more squares.")
-	console.log(5474 - squares)
+	if($(this).hasClass('clicked')){
+		squares++;
+		$(this).toggleClass('clicked');
+		$('#howmanysquares').text("You can buy "+squares+" more squares.")
+		console.log(5474 - squares)
 	$('#squaresbought').text("You have bought " + (5474 - squares) + " squares");
-	console.log("after click")
+	}else{
+		$(this).toggleClass('clicked');
+		squares--;
+		console.log(squares);
+		$('#howmanysquares').text("You can buy "+squares+" more squares.")
+		console.log(5474 - squares)
+		$('#squaresbought').text("You have bought " + (5474 - squares) + " squares");
+		console.log("after click")
+	}
   }
 });
 
